@@ -45,7 +45,7 @@ def main():
 
     # Cria uma tabela para exibir os arquivos de mídia e opções
     table = Table(show_header=True, header_style="bold magenta")
-    table.add_column("Arquivo", style="dim")
+    table.add_column("Arquivos", style="dim")
     table.add_column("Opções")
     for media_file in media_files:  # Adiciona os arquivos de mídia à tabela
         table.add_row(os.path.basename(media_file), "[bold green]Mudar resolução[/bold green] | [bold blue]Rotacionar[/bold blue]")
