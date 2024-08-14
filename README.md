@@ -1,6 +1,6 @@
 # Convert_Rotation
 
-Este projeto é um script Python que utiliza a biblioteca `rich` para exibir texto colorido e tabelas no terminal. Ele permite listar arquivos de mídia em um diretório, mudar a resolução e rotacionar vídeos usando o `ffmpeg` nativo da máquina.
+Este projeto é um script Python que utiliza a biblioteca `rich` para exibir textos coloridos e tabelas no terminal. Ele permite listar arquivos de mídia em um diretório, mudar a resolução e rotacionar vídeos usando o `ffmpeg` nativo da máquina.
 
 ![image](https://github.com/user-attachments/assets/896bd5c4-88c5-4103-acf5-6570cabb887a)
 
@@ -14,5 +14,9 @@ Este projeto é um script Python que utiliza a biblioteca `rich` para exibir tex
 - Interface de linha de comando (CLI) com formatação colorida
 
 ## Requisitos para rodar em windows
+- Instalar o FFMPEG, abra o CMD e digite ----> winget install "FFmpeg (Essentials Build)"
+- Instalar a biblioteca rich  ----> python -m pip install rich
 
-
+## Requisitos para rodar em Linux
+- Instalar o FFMPEG, abra o Shell e digite ----> sudo apt update && apt install ffmpeg
+- Instalar a biblioteca rich  ----> python -m pip install rich
