@@ -1,6 +1,6 @@
 # Convert_Rotation
 
-Este projeto é um script em Python, que utiliza a biblioteca `rich` para exibir textos coloridos e tabelas no terminal. Listando arquivos de mídia em um diretório, mudar a resolução e rotacionar vídeos usando o `ffmpeg` nativo da máquina.
+Este projeto é um script em Python, que utiliza a biblioteca `rich` para exibir textos coloridos e tabelas no terminal. Listando arquivos de mídias em um diretório. Podendo mudar a resolução e rotacionar vídeos usando o `ffmpeg` nativo da máquina.
 
 ![image](https://github.com/user-attachments/assets/896bd5c4-88c5-4103-acf5-6570cabb887a)
 
