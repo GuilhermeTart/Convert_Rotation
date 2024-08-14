@@ -13,9 +13,9 @@ Este projeto é um script em Python, que utiliza a biblioteca `rich` para exibir
 - Rotacionar vídeos
 
 ## Requisitos para rodar em windows
-- Instalar o FFMPEG, abra o CMD e digite ----> winget install "FFmpeg (Essentials Build)"
+- Instalar o FFMPEG abra o CMD e digite ----> winget install "FFmpeg (Essentials Build)"
 - Instalar a biblioteca rich  ----> python -m pip install rich
 
 ## Requisitos para rodar em Linux
-- Instalar o FFMPEG, abra o Shell e digite ----> sudo apt update && apt install ffmpeg
+- Instalar o FFMPEG abra o Shell e digite ----> sudo apt update && apt install ffmpeg
 - Instalar a biblioteca rich  ----> python -m pip install rich
