@@ -11,7 +11,7 @@ def list_media(directory):
     media_files = []
     for root, dirs, files in os.walk(directory):
         for file in files:
-            if file.endswith(('.mp4', '.mkv', '.avi', '.mov', '.jpg')):
+            if file.endswith(('.mp4', '.mkv', '.avi', '.mov', '.jpg','.png')):
                 media_files.append(os.path.join(root, file))
     return media_files
 
