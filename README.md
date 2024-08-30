@@ -9,13 +9,15 @@ Este projeto é um script em Python, que utiliza a biblioteca `rich` para exibir
 ## Funcionalidades
 
 - Listar arquivos de mídia em um diretório
-- Mudar a resolução de vídeos
-- Rotacionar vídeos
+- Mudar a resolução de vídeos e imagens
+- Rotacionar vídeos e imagens
 
 ## Requisitos para rodar em windows
 - Instalar o FFMPEG abra o CMD e digite ----> winget install "FFmpeg (Essentials Build)"
 - Instalar a biblioteca rich  ----> python -m pip install rich
+- Instalar dependências ----> pip install -r requirements.txt
 
 ## Requisitos para rodar em Linux
 - Instalar o FFMPEG abra o Shell e digite ----> sudo apt update && apt install ffmpeg
 - Instalar a biblioteca rich  ----> python -m pip install rich
+- Instalar dependências ----> pip install -r requirements.txt
